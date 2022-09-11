@@ -11,6 +11,7 @@ for i in range(1, n+1):
 print(*Multi, sep = "\n")
 
 
+
 # ---From Maria
 # print("\t\t\tMULTIPLICATION TABLE\n")
 # for i in range(1 , 13):
@@ -22,6 +23,10 @@ print(*Multi, sep = "\n")
 # 		print(j*k, end="\n")
 # print("\n")
 #
+# n = 12
+# Multi = [['X'] * (n+1) for p in range(n+1)]
+# print(Multi)
+
 
 
 
