@@ -1,14 +1,14 @@
 
 
-#-Multiplication Table
-n = 12
-Multi = [['X'] * (n+1) for p in range(n+1)]
-for i in range(1, n+1):
-    Multi[i][0] = i
-    for k in range(1, n+1):
-        Multi[0][k] = k
-        Multi[i][k] = i*k
-print(*Multi, sep = "\n")
+# #-Multiplication Table
+# n = 12
+# Multi = [['X'] * (n+1) for p in range(n+1)]
+# for i in range(1, n+1):
+#     Multi[i][0] = i
+#     for k in range(1, n+1):
+#         Multi[0][k] = k
+#         Multi[i][k] = i*k
+# print(*Multi, sep = "\n")
 
 
 
@@ -27,7 +27,7 @@ print(*Multi, sep = "\n")
 # Multi = [['X'] * (n+1) for p in range(n+1)]
 # print(Multi)
 
-multi_table = [['X'] + list(range(1, 6))] + [a[:0] + [a[0]] + a[0:] for a in [[(j+1)*(i+1) for j in range(5)] for i in range(5)]]
+multi_table = [['X'] + list(range(1, 13))] + [a[:0] + [a[0]] + a[0:] for a in [[(j+1)*(i+1) for j in range(12)] for i in range(12)]]
 
 print(*multi_table, sep="\n")
 
