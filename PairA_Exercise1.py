@@ -14,10 +14,11 @@
 
 # Multiplication Table --- Single line of code, second line is to print
 # Get rid of n variable
-multi_table = [['X'] + list(range(1, 13))] + [a[:0] + [a[0]] + a[0:] for a in [[(j+1)*(i+1) for j in range(12)] for i in range(12)]]
+# multi_table = [['X'] + list(range(1, 13))] + [a[:0] + [a[0]] + a[0:] for a in [[(j+1)*(i+1) for j in range(12)] for i in range(12)]]
+#
+# print(*multi_table, sep="\n")
 
-print(*multi_table, sep="\n")
-
+print(*[['X'] + list(range(1, 13))] + [a[:0] + [a[0]] + a[0:] for a in [[(j+1)*(i+1) for j in range(12)] for i in range(12)]], sep="\n")
 
 # ---Scratch
 # for i in range(1 , 13):
