@@ -27,7 +27,13 @@
 # Multi = [['X'] * (n+1) for p in range(n+1)]
 # print(Multi)
 
-multi_table = [['X'] + list(range(1, 13))] + [a[:0] + [a[0]] + a[0:] for a in [[(j+1)*(i+1) for j in range(12)] for i in range(12)]]
+# multi_table = [['X'] + list(range(1, 13))] + [a[:0] + [a[0]] + a[0:] for a in [[(j+1)*(i+1) for j in range(12)] for i in range(12)]]
 
-print(*multi_table, sep="\n")
+# print(*multi_table, sep="\n")
+
+number = 13
+
+for i in range(1, 13): 
+    print(* [i*j for j in range(1,13)],sep='\t')
+    
 
