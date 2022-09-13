@@ -27,6 +27,7 @@ print(*Multi, sep = "\n")
 # Multi = [['X'] * (n+1) for p in range(n+1)]
 # print(Multi)
 
+multi_table = [['X'] + list(range(1, 6))] + [a[:0] + [a[0]] + a[0:] for a in [[(j+1)*(i+1) for j in range(5)] for i in range(5)]]
 
-
+print(*multi_table, sep="\n")
 
