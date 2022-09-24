@@ -2,9 +2,9 @@
 # IST 303
 # Question 1
 
-Men_round_of_16= {"Victor": ["Novak DJokovic", "Roger Federer",: "Rafael Nadal", : "Sam Querrey", : "Kei Nishikori", : "Guido Pella", : "David Goffin", : "Roberto Bautista Agut"]
-"Losers" : ["Ugo Humbert", : "Matteo Berrettini", : "Joao Sousa", : "Tennys Sandgren", : "Mikhail Kukushkin", "Milos Raonic", : "Fernando Verdasco", : "Benoit Paire"]
-}
+Men_round_of_16= {{"Victor": ["Novak DJokovic", "Roger Federer", "Rafael Nadal", "Sam Querrey", "Kei Nishikori", "Guido Pella", "David Goffin", "Roberto Bautista Agut"]}
+{"Losers" : ["Ugo Humbert", : "Matteo Berrettini", : "Joao Sousa", : "Tennys Sandgren", : "Mikhail Kukushkin", "Milos Raonic", : "Fernando Verdasco", : "Benoit Paire"]}
+
 women_round_of_16 = {"Victor": ["Shuai Zhang", "Elina Svitolina", "Alison Riske", "Barbora Strycova",
                                 "Karolina Muchova", "Serena Williams", "Simona Halep", "Johanna Konta"],
                      "Loser": ["Dayana Yastremska", "Petra Martic", "Ashleigh Barty", "Elise Mertens",

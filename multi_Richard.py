@@ -45,4 +45,23 @@ print(*multi_table, sep="\n")
 #     print(* [i*j for j in range(1,13)],sep='\t')
 
 
+__first = 0
+__second = 0
+__third = 0
+__fourth = 0
 
+dict = {"first": __first,
+        "second": __second,
+        "third": __third,
+        "fourth": __fourth}
+
+
+def updateDict(dict, new_key, new_value):
+
+    for key, value in dict.items():
+        if key == new_key:
+            dict[key] = new_value
+
+    print(dict)
+
+    return dict
