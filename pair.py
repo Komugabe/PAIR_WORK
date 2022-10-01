@@ -82,3 +82,12 @@ else:
    b1.deposit(d1)   
    print("Current Balance:",b1.checkbalance())                                        
 
+
+def test_savings_update():
+    assert  Bank_Account b1 > 9000
+
+def test_savings_update
+    widthdraw = int(input('Enter a number: '))
+  assert withdraw > 0 # Test if it true
+except AssertionError :
+  print("Number is negative")
